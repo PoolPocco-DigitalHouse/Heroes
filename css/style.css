@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+    font-weight: 400px;
+    font-size: 16px;
+    margin: 0
+}
+
+header {
+    box-sizing: content-box;
+}
+
+header p {
+    background-color: #1CD1B0;
+    color: #000000;
+    height: 38px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 27px;
+}
+
+header h1 {
+    align-items: center;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    font-size: 40px;
+    height: 101px;
+    padding-top: 38px;
+    padding-left: 28px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+.card {
+    position: relative;
+  display: grid;
+  margin-top: 150px;
+}
+
+.card-heroe {
+    border-radius: 8% 8% 0 0;
+    height: 193px;
+    width: 300px;
+}
+
+.like {
+    position: absolute;
+  top:  20px;
+  left: 15px;
+}
+
+.heroe{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.card-contenido{
+    margin-top: 80px;
+}
+
+.card-contenido h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-contenido p {
+    text-align: start;
+    width: 267px;
+    margin-top: 10px;
+    margin-left: 20px;;
+}
+
+.btn-heroe {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    width: 129px;
+    height: 49px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 16px;
+}
+
+footer p{
+    font-size: 20px;
+}
